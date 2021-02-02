@@ -94,20 +94,20 @@ const Repos = () => {
   // });
 
   // console.log(pairs);
-  const chartData = [
-    {
-      label: 'Javascript',
-      value: '90',
-    },
-    {
-      label: 'Python',
-      value: '30',
-    },
-    {
-      label: 'C#',
-      value: '95',
-    },
-  ];
+  // const chartData = [
+  //   {
+  //     label: 'Javascript',
+  //     value: '90',
+  //   },
+  //   {
+  //     label: 'Python',
+  //     value: '30',
+  //   },
+  //   {
+  //     label: 'C#',
+  //     value: '95',
+  //   },
+  // ];
   return (
     <section className="section">
       <Wrapper className="section-center">
