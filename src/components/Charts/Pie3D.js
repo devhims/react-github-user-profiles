@@ -34,7 +34,7 @@ const Pie3D = ({ data }) => {
         caption: 'Languages',
         theme: 'gammel',
         decimals: 0,
-        pieRadius: '35%',
+        pieRadius: '55%',
       },
       // Chart Data
       data,

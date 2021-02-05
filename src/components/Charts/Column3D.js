@@ -12,7 +12,7 @@ import FusionCharts from 'fusioncharts';
 import Column2D from 'fusioncharts/fusioncharts.charts';
 
 // Include the theme as fusion
-import FusionTheme from 'fusioncharts/themes/fusioncharts.theme.gammel';
+import FusionTheme from 'fusioncharts/themes/fusioncharts.theme.fusion';
 
 // Adding the chart and theme as dependency to the core fusioncharts
 ReactFC.fcRoot(FusionCharts, Column2D, FusionTheme);
@@ -24,7 +24,7 @@ ReactFC.fcRoot(FusionCharts, Column2D, FusionTheme);
 // STEP 4 - Creating the DOM element to pass the react-fusioncharts component
 const Column3D = ({ data }) => {
   const chartConfigs = {
-    type: 'column3d', // The chart type
+    type: 'column2d', // The chart type
     width: '100%', // Width of the chart
     height: '400', // Height of the chart
     dataFormat: 'json', // Data type
@@ -32,11 +32,12 @@ const Column3D = ({ data }) => {
       // Chart Configuration
       chart: {
         caption: 'Most Popular',
-        theme: 'gammel',
+        theme: 'fusion',
         xAxisName: 'Repos',
         yAxisName: 'Stars',
         xAxisNameFontSize: '16px',
         yAxisNameFontSize: '16px',
+        paletteColors: '#05668d, #028090, #00a896, #02c39a, #f0f3bd',
       },
       // Chart Data
       data,

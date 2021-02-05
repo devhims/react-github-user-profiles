@@ -34,7 +34,7 @@ const Doughnut2D = ({ data }) => {
         caption: 'Stars Per Language',
         theme: 'gammel',
         decimals: 0,
-        doughnutRadius: '35%',
+        doughnutRadius: '40%',
         showPercentValues: 0,
       },
       // Chart Data
